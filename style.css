@@ -1,0 +1,160 @@
+body{ 
+	margin: 0px; 
+	background-color: #AFEEEE;
+	font-family:Parkavenue, cursive;
+}
+header img{
+	top: 0px;
+	height: 150px;
+	width: 1349px;
+}
+.menu li a:hover {
+	background-position: right center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu li a {
+  width :150px;
+  height :8px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+   font-family: Parkavenue, cursive;
+  background-image: linear-gradient(to right, #8B008B 0%, #4830F0 51%, #8B008B 100%);  /*перетикание*/
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0,0,0,.1); /*<сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет>*/
+  transition: .5s; /*время перехода между состояниями*/
+}
+.menu {
+	margin-top: 20px;
+	width: 200px;
+	margin-left: 5px;
+	float: left;
+
+}
+.main {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 30px 30px;
+	background-color: #E0FFFF;
+	margin-right: 300px;
+	margin-left: 270px;
+	text-align: justify;
+}
+.main h2 {
+	margin-left: 250px;
+	text-indent: 27pt; /*отступ первой строки*/
+	margin-bottom: 40px;
+	color: #4682B4;
+}
+#myphoto  {
+	width: 300px;
+	border: 1px #333 solid;
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#myphoto3 {
+	width: 300px;
+	border: 1px #333 solid;
+	float: right;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#myphoto2 {
+	width: 300px;
+	border: 2px #333 solid;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#myphoto4 {
+	
+	width: 300px;
+	border: 2px #333 solid;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#myphoto5 {
+	width: 300px;
+	border: 1px #333 solid;
+	float: right;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+#myphoto6 {
+	width: 300px;
+	border: 2px #333 solid;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+footer {
+	background-color: #fff;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	padding-left: 230px;
+    overflow: hidden; /*Если не влазит то отображается только область внутри элемента, остальное будет скрыто. */
+    background-color: #2F4F4F;
+}
+footer li {
+    float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    text-decoration: none
+}
+footer img {
+	width: 48px;
+	height: 48px;
+	margin-top: 15px
+}
+footer span {
+	font-family: "Times New Roman", Times, serif; 
+	position: relative;
+	bottom: 10px;
+}
+.gadjet th, .gadjet td{
+	background-color: #6495ED;
+	border: 1px #fff solid;
+	padding: 5px 5px;
+}
+.gadjet td {
+	background-color: #6A5ACD; 
+}
+.gadjet {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+}
+center img {
+	height: 300px;
+}
+.facts {
+	margin-top: 30px;
+	width: 210px;
+	margin-right: 20px;
+	padding: 20px 20px;
+	float: right;
+	background-color: #87CEFA;
+}
+.facts p{
+	
+}
+.facts h4 {
+	color: #2A3957;
+}
+
